@@ -90,7 +90,6 @@ img{
     line-height: 1.17;
     letter-spacing:  0.03em;
     text-transform: uppercase;
-    text-decoration: none;
     color:var(--brand-color);
     margin-right: 76px;
    }
@@ -159,7 +158,6 @@ img{
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: var(--brand-color);
-    box-sizing: border-box;
     border: 0px solid transparent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px; 
@@ -169,7 +167,6 @@ img{
     display: block;
     margin: 0 auto;
     min-width: 169px;
-    height: 56px;
 }
 .hero-btn:hover,.hero-btn:focus{
     background-color: var(--Pressed-state);
@@ -259,8 +256,9 @@ img{
     }
 
 .box-content{
-    padding: 32px;
+    padding-top: 32px;
     padding-left: 16px;
+    padding-bottom: 32px;
     text-align: center;
 }
     
@@ -305,25 +303,22 @@ img{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;
     letter-spacing: 0.04em;
     background-color: var(--light-mode-backgrounds);
     color: var(--brand-color);
     border: 1px solid var(--accent);
-    box-sizing: border-box;
     border-radius: 4px;
     padding: 12px 24px;
     display: block;
     margin: 0 auto;
     cursor:pointer;
     min-width: 69px;
-    height: 48px;
 }
 .choice-btn:hover,
 .choice-btn:focus{
     background-color: var(--Pressed-state);
     color: var(--text-btn-color);
-    border-color:   transparent;
+    border-color: transparent;
 }
 .choice-btn:active{
     background-color: var(--Pressed-state);
@@ -342,7 +337,6 @@ img{
     flex-wrap: wrap; 
     justify-content: center;
     gap: var(--card-set-gap); 
-    
 }
 
 /**---------GALERY-----*/
@@ -362,8 +356,9 @@ img{
  
 }
 .card-content{
-    padding: 32px;
+    padding-top: 32px;
     padding-left: 16px;
+    padding-bottom: 32px;
     
     border-left: 1px solid var(--accent);
     border-bottom: 1px solid var(--accent);
